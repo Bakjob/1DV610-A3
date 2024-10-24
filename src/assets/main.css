@@ -1,30 +1,70 @@
 #app {
-    padding: 0rem;
-    font-weight: normal;
-  }
-  
-  html {
-    margin: 0;
-    padding: 0;
-    background-color: gray;
-  }
-  
-  a {
-    text-decoration: none;
-    color: rgb(44, 44, 44);
-    transition: 0.4s;
-    padding: 3px;
-  }
-  
-  .background-image {
-    background-image: url('../assets/images/businessgeneric.jpg');
-    background-size: cover; /* Gör så att bilden täcker hela elementet */
-    background-position: center; /* Centrerar bilden */
-    background-repeat: no-repeat; /* Förhindrar att bilden upprepas */
-    height: 100vh; /* Gör så att main-elementet täcker hela höjden av viewporten */
-    width: 100vw; /* Gör så att main-elementet täcker hela bredden */
-    position: fixed; /* Gör så att bilden inte scrollar med sidan */
-    top: 0;
-    left: 0;
-  }
-  
+  padding: 0rem;
+  font-weight: normal;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.converter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+input,
+select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+input:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.result {
+  text-align: center;
+}
+
+.result p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.result h1 {
+  font-size: 2rem;
+  color: #007bff;
+}

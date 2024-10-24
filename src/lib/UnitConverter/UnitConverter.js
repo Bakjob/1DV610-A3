@@ -63,10 +63,10 @@ export class UnitConverter {
       }
     },
     weight: {
-      grams: { kilograms: 1 / 1000, pounds: 0.00220462, ounces: 0.035274 },
-      kilograms: { grams: 1000, pounds: 2.20462, ounces: 35.274 },
-      pounds: { grams: 453.592, kilograms: 0.453592, ounces: 16 },
-      ounces: { grams: 28.3495, kilograms: 0.0283495, pounds: 0.0625 },
+      grams: { kilograms: 1 / 1000, pounds: 0.00220462, ounces: 0.035274, stones: 0.000157473 },
+      kilograms: { grams: 1000, pounds: 2.20462, ounces: 35.274, stones: 0.157473 },
+      pounds: { grams: 453.592, kilograms: 0.453592, ounces: 16, stones: 0.0714286 },
+      ounces: { grams: 28.3495, kilograms: 0.0283495, pounds: 0.0625, stones: 0.00446429 },
       stones: { grams: 6350.29, kilograms: 6.35029, pounds: 14, ounces: 224 }
     },
     length: {
@@ -134,11 +134,15 @@ export class UnitConverter {
     const factor = this.#conversionFactors[group][fromUnit][toUnit]
 
     // If the factor is a function, call it with the number as an argument. Otherwise, multiply the number with the factor.
+    let result;
     if (typeof factor === 'function') {
-      return factor(number)
+      result = factor(number)
     } else {
-      return number * factor
+      result = number * factor
     }
+
+    // Round the result to 3 decimal places
+    return parseFloat(result.toFixed(3))
   }
 
   /**
