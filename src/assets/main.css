@@ -1,0 +1,30 @@
+#app {
+    padding: 0rem;
+    font-weight: normal;
+  }
+  
+  html {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+    transition: 0.4s;
+    padding: 3px;
+  }
+  
+  .background-image {
+    background-image: url('../assets/images/businessgeneric.jpg');
+    background-size: cover; /* Gör så att bilden täcker hela elementet */
+    background-position: center; /* Centrerar bilden */
+    background-repeat: no-repeat; /* Förhindrar att bilden upprepas */
+    height: 100vh; /* Gör så att main-elementet täcker hela höjden av viewporten */
+    width: 100vw; /* Gör så att main-elementet täcker hela bredden */
+    position: fixed; /* Gör så att bilden inte scrollar med sidan */
+    top: 0;
+    left: 0;
+  }
+  
