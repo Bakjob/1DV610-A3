@@ -141,8 +141,8 @@ export class UnitConverter {
       result = number * factor
     }
 
-    // Round the result to 3 decimal places
-    return parseFloat(result.toFixed(3))
+    // Round the result.
+    return parseFloat(result.toPrecision(3))
   }
 
   /**
