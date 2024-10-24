@@ -3,8 +3,8 @@ import { UnitConverter } from '../lib/UnitConverter/UnitConverter'
 import { ref, computed } from 'vue'
 
 const inputValue = ref(0)
-const fromUnit = ref('seconds')
-const toUnit = ref('minutes')
+const fromUnit = ref('celsius')
+const toUnit = ref('fahrenheit')
 
 const converter = new UnitConverter()
 

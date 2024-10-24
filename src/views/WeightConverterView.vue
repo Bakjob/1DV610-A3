@@ -3,8 +3,8 @@ import { UnitConverter } from '../lib/UnitConverter/UnitConverter'
 import { ref, computed } from 'vue'
 
 const inputValue = ref(0)
-const fromUnit = ref('seconds')
-const toUnit = ref('minutes')
+const fromUnit = ref('kilograms')
+const toUnit = ref('grams')
 
 const converter = new UnitConverter()
 
