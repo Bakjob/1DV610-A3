@@ -15,15 +15,15 @@ Detta projekt bygger vidare på modulen från Laboration 2 (L2M) och använder d
 1. Klona detta repo.
     bash
     git clone <repo_url>
-    
+
 2. Installera nödvändiga beroenden.
     bash
     npm install
-    
+
 3. Starta applikationen.
     bash
     npm start
-    
+
 
 > **Notering:** Denna applikation kräver modulen från Laboration 2 (L2M) för att kunna köras. Kontrollera att modulen är installerad och konfigurerad korrekt.
 
@@ -55,7 +55,7 @@ En tabell med beskrivande testfall finns nedan:
 | Testfall 1      | *(Beskrivning)*      | *(Förväntat utfall)*      |
 | Testfall 2      | *(Beskrivning)*      | *(Förväntat utfall)*      |
 
-> **Notering:** Testerna är skapade för att täcka varje krav. Manuella och automatiska tester har utförts.
+> **Notering:** Testerna är skapade för att täcka varje krav. Manuella tester har utförts på webbsidan automatiska tester har utförts separat för modulen.
 
 ## Clean Code Reflektion
 Reflektion över förbättringar enligt Clean Code, kapitel 2-11:

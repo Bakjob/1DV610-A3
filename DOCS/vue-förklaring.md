@@ -1,0 +1,6 @@
+** För Daniel om han vill ha lite pointers på hur vue fungerar, och hur jag har använt mig av vue här. **
+ - Vue är ett framework som react som använder sig av komponenter för att dela upp koden på ett snyggt sätt. Man skriver typ koden i HTML.
+ - Jag använder mig av en property som heter computed för att automatiskt invokera UnitConverter varje gång en ändring sker i koden där jag har "bindat" mina egenskaper till, i detta fall input fälten.
+ - vue router används för att hantera vilken sida jag ligger på.
+ - Det mesta av det jag skrivit ligger i views foldern, components och router. Det mesta annat är boilerplate för vue.
+ - Uppdaterat efter jag började skriva på rapporten == Jag märkte att "html" koden i varje view var precis likadan i varje view. Så jag bröt ut det till en separat komponent som heter ConverterComponent.vue. Man trycker in alla värden i denna komponent i form av props. Props är egenskaper och attributer man kan skicka mellan komponenter.
