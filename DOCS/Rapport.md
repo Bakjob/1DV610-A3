@@ -35,6 +35,8 @@ Denna app är beroende av modulen från Laboration 2 och är uppdelad i tre ober
 - **Testmodul (L2T):** Testfall för att verifiera att modulen fungerar korrekt.
 - **App (L3):** Använder modulen (L2) för att erbjuda slutanvändaren en komplett upplevelse i användarvänligt gränssnitt.
 
+![classStructure](./diagram.png)
+
 > Varje del är ett eget projekt och ska fungera enligt specificerad beroendestruktur. Testappen, modulen och själva webbsidan för användare fungerar separat. Dock är modulen ett måste för att webbsidan ska fungera.
 
 ## Vision
