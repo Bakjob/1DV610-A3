@@ -31,9 +31,9 @@ Appen är utformad för att hantera interaktionen mellan slutanvändaren och mod
 
 ## Modulstruktur
 Denna app är beroende av modulen från Laboration 2 och är uppdelad i tre oberoende delar:
-- **Modul (L2M):** Grundläggande funktionalitet och metoder.
+- **Modul (L2):** Grundläggande funktionalitet och metoder.
 - **Testmodul (L2T):** Testfall för att verifiera att modulen fungerar korrekt.
-- **App (L3A):** Använder modulen (L2M) för att erbjuda slutanvändaren en komplett upplevelse i användarvänligt gränssnitt.
+- **App (L3):** Använder modulen (L2) för att erbjuda slutanvändaren en komplett upplevelse i användarvänligt gränssnitt.
 
 > Varje del är ett eget projekt och ska fungera enligt specificerad beroendestruktur. Testappen, modulen och själva webbsidan för användare fungerar separat. Dock är modulen ett måste för att webbsidan ska fungera.
 
@@ -42,9 +42,9 @@ Denna app är beroende av modulen från Laboration 2 och är uppdelad i tre ober
 
 ## Kravspecifikation
 Appen uppfyller följande användarkrav:
-- **Krav 1:** Användare ska kunna få ut ett resultat på inmatningar automatiskt utan att behöva klicka på en "convert" knapp varje gång.
-- **Krav 2:** Användare ska kunna växla mellan vilken converter de vill använda.
-- *(Lägg till fler krav beroende på specifikationen)*
+- **Krav 1:** Användare ska kunna få ut ett resultat på inmatningar automatiskt utan att behöva klicka på en "convert" knapp varje gång. Uppfylls.
+- **Krav 2:** Användare ska kunna växla mellan vilken converter de vill använda. Uppfylls.
+- **Krav 3:** Fint gränssnitt. Uppfylls halvt. Jag är ingen expert på css.
 
 ## Testning
 En tabell med beskrivande testfall finns nedan:

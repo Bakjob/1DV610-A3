@@ -33,3 +33,8 @@ npm run build
 ```sh
 npm run lint
 ```
+
+Follow these steps if you want to run this webb application on your own computer locally.
+
+Or, if you are looking for the module itself it can be found here:
+https://github.com/Bakjob/1DV610-A2

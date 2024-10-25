@@ -134,7 +134,7 @@ export class UnitConverter {
     const factor = this.#conversionFactors[group][fromUnit][toUnit]
 
     // If the factor is a function, call it with the number as an argument. Otherwise, multiply the number with the factor.
-    let result;
+    let result
     if (typeof factor === 'function') {
       result = factor(number)
     } else {
