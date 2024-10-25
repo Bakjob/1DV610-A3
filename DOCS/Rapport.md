@@ -27,7 +27,7 @@ Detta projekt bygger vidare på modulen från Laboration 2 (L2M) och använder d
 Appen är utformad för att hantera interaktionen mellan slutanvändaren och modulen (L2M) genom ett användarvänligt gränssnitt.
 
 - **Navigering:** Det är en separat sida för varje Converter på webbsidan. Nav används för att växla mellan dem, det är en SPA (single page application). Inget laddas om när man navigerar runt på sidan. Man blir serverad allt på en gång. Sedan går det att köra offline om man vill. Finns många fördelar med det.
-- **Funktionalitet:** Ange huvudfunktionerna för appen och hur de uppfyller de krav som ställs på projektet.
+- **Funktionalitet:** Konvertera mellan olika unit types.
 
 ## Modulstruktur
 Denna app är beroende av modulen från Laboration 2 och är uppdelad i tre oberoende delar:
@@ -66,9 +66,7 @@ En tabell med beskrivande testfall finns nedan:
 Reflektion över förbättringar enligt Clean Code, kapitel 2-11:
  - Detta ligger i reflection.md
 
-> För detaljerade reflektioner, se dokumentet `reflection.md` där kapitlen och exempel från koden är diskuterade.
-
 ## Dokumentation
 För varje målgrupp finns relevant dokumentation:
 - **Slutanvändare och Apputvecklare:** `README.md` i roten av denna applikation.
-- **Modulanvändare och Modulutvecklare:** Dokumentation för modulen finns i respektive repo för modulen.
+- **Modulanvändare och Modulutvecklare:** Dokumentation för modulen finns i respektive repo för modulen: https://github.com/Bakjob/1DV610-A2 Finns också länk till det från README.md. Om man nu bara vill åt modulen.

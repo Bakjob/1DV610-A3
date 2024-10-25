@@ -25,4 +25,4 @@ Inte så mycket komplicerad kod för att få det att fungera på front end för 
 ## Vad jag kommer ta med mig:
 Det jag tycker jag kommer ta med mig mest är nog just hur kraftfullt det är att dela upp kod så mycket som möjligt. Läsbarheten gör det otroligt mycket bättre att jobba i och det är mycket lättare att bygga ut existerande kod. Felhantering med mera. Oändliga positiva saker att säga om det. Med utbruten kod är det också väldigt märkbart om metodnamnen och klassnamnen är tydliga och visar vad de menar att göra utifrån namnen de har. Så det blir en positiv feedback loop nästan. Så för mig är det dem två viktigaste attributen jag har jobbat med under denna kurs. Sen har allt annart varit bra men just dessa två ville jag lyfta fram. Jag är en person som kan ha lite för bråttom när jag kodar och har lätt att hamna i en lat lösning som kanske är lite för lång för att vara lättläslig eller "scaleable".
 
-Igen hade inte tid med jest... Blev lite ont om tid tyvärr.
+Igen hade inte tid med jest... Blev lite ont om tid tyvärr. Manuella tester är de enda som fungerar för webbappen och de har gjorts korrekt.
