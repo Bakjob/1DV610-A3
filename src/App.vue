@@ -24,7 +24,7 @@ import Navbar from './components/NavBar.vue'
 }
 
 nav {
-  background-color: gray;
+  background-color: white;
   color: white;
   padding: 1rem;
   text-align: center;
@@ -38,6 +38,6 @@ main {
   flex-grow: 1;
   overflow-y: auto;
   padding: 1rem;
-  background-color: #f0f0f0;
+  background-color: gray;
 }
 </style>

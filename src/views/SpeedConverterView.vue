@@ -3,8 +3,8 @@ import { UnitConverter } from '../lib/UnitConverter/UnitConverter'
 import { ref, computed } from 'vue'
 
 const inputValue = ref(0)
-const fromUnit = ref('Miles per hour')
-const toUnit = ref('Knots')
+const fromUnit = ref('mph')
+const toUnit = ref('knots')
 
 const converter = new UnitConverter()
 
