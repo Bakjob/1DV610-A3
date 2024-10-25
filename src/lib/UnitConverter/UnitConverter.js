@@ -36,10 +36,10 @@ export class UnitConverter {
   // Conversion factors for every supported type. Very easy to add more types later.
   #conversionFactors = {
     time: {
-      seconds: { minutes: 1 / 60, hours: 1 / 3600, days: 1 / 86400, seconds: 1 },
-      minutes: { seconds: 60, hours: 1 / 60, days: 1 / 1440, minutes: 1 },
-      hours: { seconds: 3600, minutes: 60, days: 1 / 24, hours: 1 },
-      days: { seconds: 86400, minutes: 1440, hours: 24, days: 1 },
+      seconds: { minutes: 1 / 60, hours: 1 / 3600, days: 1 / 86400, seconds: 1, milliseconds: 1000, microseconds: 1000000, nanoseconds: 1000000000, picoseconds: 1000000000000 },
+      minutes: { seconds: 60, hours: 1 / 60, days: 1 / 1440, minutes: 1, milliseconds: 60000, microseconds: 60000000, nanoseconds: 60000000000, picoseconds: 60000000000000 },
+      hours: { seconds: 3600, minutes: 60, days: 1 / 24, hours: 1, milliseconds: 3600000, microseconds: 3600000000, nanoseconds: 3600000000000, picoseconds: 3600000000000000 },
+      days: { seconds: 86400, minutes: 1440, hours: 24, days: 1, milliseconds: 86400000, microseconds: 86400000000, nanoseconds: 86400000000000, picoseconds: 8640000000000 * 10000 },
       milliseconds: { seconds: 0.001, minutes: 1 / 60000, hours: 1 / 3600000, days: 1 / 86400000, milliseconds: 1 },
       microseconds: { seconds: 1 / 1000000, minutes: 1 / 60000000, hours: 1 / 3600000000, days: 1 / 86400000000, microseconds: 1 },
       nanoseconds: { seconds: 1 / 1000000000, minutes: 1 / 60000000000, hours: 1 / 3600000000000, days: 1 / 86400000000000, nanoseconds: 1 },

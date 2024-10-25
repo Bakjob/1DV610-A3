@@ -1,7 +1,7 @@
 <template>
     <div>
       <h1>Home</h1>
-      <p>Welcome to my unit converter.</p>
+      <p>Welcome to my unit converter. Select from the menu above which unit types you want to convert to and from. Below is a list of supported types to convert:</p>
       <table>
         <thead>
           <tr>
